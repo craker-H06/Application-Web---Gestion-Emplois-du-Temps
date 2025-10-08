@@ -1,0 +1,124 @@
+/* Styles généraux */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Styles de la navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+/* Styles des cartes */
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+/* Styles des tableaux */
+.table {
+    background-color: #fff;
+}
+
+.table thead th {
+    border-top: none;
+    background-color: #f8f9fa;
+}
+
+/* Styles des boutons */
+.btn {
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+/* Styles des formulaires */
+.form-control {
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+
+/* Styles des badges */
+.badge {
+    padding: 0.5em 0.75em;
+    font-weight: 500;
+}
+
+/* Styles des modales */
+.modal-content {
+    border: none;
+    border-radius: 8px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-footer {
+    border-top: 1px solid #dee2e6;
+}
+
+/* Styles de la liste de navigation */
+.list-group-item {
+    border: none;
+    margin-bottom: 2px;
+    border-radius: 4px !important;
+}
+
+.list-group-item.active {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.list-group-item:hover:not(.active) {
+    background-color: #f8f9fa;
+}
+
+/* Styles des icônes */
+.bi {
+    margin-right: 8px;
+}
+
+/* Styles des alertes */
+.alert {
+    border: none;
+    border-radius: 4px;
+}
+
+/* Styles des tableaux responsifs */
+.table-responsive {
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+}
+
+/* Styles des inputs de type time */
+input[type="time"] {
+    padding: 0.375rem 0.75rem;
+}
+
+/* Styles des selects */
+.form-select {
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+}
+
+/* Styles des textareas */
+textarea.form-control {
+    min-height: 100px;
+} 
